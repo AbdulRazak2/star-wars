@@ -18,8 +18,8 @@ const ImageSlider = () => {
         <Carousel.Item>
           <img className="d-block w-100" src={slideOne} alt="First slide" />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Skywalker</h3>
+            <p>I like the firsts. Good or bad, they're Always memorable.</p>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -27,8 +27,8 @@ const ImageSlider = () => {
           <img className="d-block w-100" src={slideTwo} alt="Second slide" />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Darth Vader</h3>
+            <p>You can't stop change any more than you can stop the suns from setting.</p>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -36,9 +36,9 @@ const ImageSlider = () => {
           <img className="d-block w-100" src={slideThree} alt="Third slide" />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h3>Obi-Wan Kenobi</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Let the past die. Kill it if you have to.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -47,7 +47,7 @@ const ImageSlider = () => {
 
           <Carousel.Caption>
             <h3>Fourth slide label</h3>
-            <p>footer</p>
+            <p>Your focus determines your reality</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
