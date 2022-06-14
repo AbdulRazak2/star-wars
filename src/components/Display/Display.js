@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 import footer from "bootstrap";
 import {AiFillFacebook} from "react-icons/ai"
 import {FaTwitter} from "react-icons/fa"
+import {FaWhatsappSquare } from "react-icons/fa"
 
 const Display = () => {
   return (
@@ -21,7 +22,7 @@ const Display = () => {
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
           <li className="ms-3"><a className="text-muted" href="#jkl"><AiFillFacebook/></a></li>
           <li className="ms-3"><a className="text-muted" href="#abc"><FaTwitter/></a></li>
-          <li className="ms-3"><a className="text-muted" href="#efe">perfect</a></li>
+          <li className="ms-3"><a className="text-muted" href="#efe"><FaWhatsappSquare /></a></li>
         </ul>
       </footer>
     </Container>
