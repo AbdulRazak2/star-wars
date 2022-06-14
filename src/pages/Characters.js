@@ -46,7 +46,7 @@ export const Characters = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="col-md-6">65
+                <div className="col-md-6">
                     <div>
                         {
                             character &&
