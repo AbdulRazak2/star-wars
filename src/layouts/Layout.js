@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../logo.svg';
-import sw from '../sw.png';
 import {
     BrowserRouter as Router,
     Switch,
@@ -30,7 +29,6 @@ class Layout extends React.Component {
                 <div className="content pb-5">
                     <Switch>
                         <Route exact path="/">
-                            <img src={sw} className="w-100" alt="home-bg" />
                         </Route>
                         <Route path="/characters" component={Characters} />
                         <Route path="/planets/:id" component={Planet} />
