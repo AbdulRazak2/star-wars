@@ -50,13 +50,13 @@ export const Characters = () => {
                     <div>
                         {
                             character &&
-                            (<div>
-                                <h3 className="border border-primary rounded p-2">{character?.properties?.name}</h3>
-                                <p>Gender: {character?.properties?.gender}</p>
-                                <p>Homeworld: {character?.properties?.homeworld}</p>
-                                <p>Skin color: {character?.properties?.skin_color}</p>
-                                <p>Date of Birth: {character?.properties?.birth_year}</p>
-                                <p>Height: {character?.properties?.height}</p>
+                            (<div  className="border border-primary rounded p-2">
+                                <h3>{character?.properties?.name}</h3>
+                                <p>{character?.properties?.gender}</p>
+                                <p>{character?.properties?.homeworld}</p>
+                                <p>{character?.properties?.skin_color}</p>
+                                <p>{character?.properties?.birth_year}</p>
+                                <p>{character?.properties?.height}</p>
                                 
                                 
                                 {// <ul className="list-group">
