@@ -38,7 +38,7 @@ export const Characters = () => {
                                         {charac?.name}
                                         
                                         <span className="badge badge-primary badge-pill" >
-                                            <button onClick={() => getCharacter(charac?.uid)} className="text-white" >Details</button>
+                                            <button onClick={() => getCharacter(charac?.uid)} className="text-dark" >Details</button>
                                         </span>
                                     </li>
                                 })
