@@ -2,10 +2,10 @@ import React from "react";
 import ImageSlider from "../Carousel/ImageSlider";
 import { Container } from "react-bootstrap";
 import footer from "bootstrap";
-import {AiFillFacebook} from "react-icons/ai"
+import {AiFillGithub} from "react-icons/ai"
 import {FaTwitter} from "react-icons/fa"
-import {FaWhatsappSquare } from "react-icons/fa"
-
+import {MdOutlineMarkunread} from "react-icons/md"
+import {AiFillLinkedin} from "react-icons/ai"
 const Display = () => {
   return (
     <div>
@@ -16,13 +16,14 @@ const Display = () => {
           <a href="/" className="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
             solid
           </a>
-          <span className="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+          <span className="mb-3 mb-md-0 text-muted">© 2022 AmaliTech</span>
         </div>
     
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li className="ms-3"><a className="text-muted" href="#jkl"><AiFillFacebook/></a></li>
+        <li className="ms-3"><a className="text-muted" href="#efm"><AiFillLinkedin/></a></li>
+          <li className="ms-3"><a className="text-muted" href="#jkl"><AiFillGithub/></a></li>
           <li className="ms-3"><a className="text-muted" href="#abc"><FaTwitter/></a></li>
-          <li className="ms-3"><a className="text-muted" href="#efe"><FaWhatsappSquare /></a></li>
+          <li className="ms-3"><a className="text-muted" href="#efe"><MdOutlineMarkunread/></a></li>
         </ul>
       </footer>
     </Container>
