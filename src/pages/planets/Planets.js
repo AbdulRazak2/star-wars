@@ -8,7 +8,7 @@ class Planets extends React.Component {
 
 		this.state = {
 			planets: [],
-			loaded: false
+			loaded: 
 
 		}
 	}

@@ -33,6 +33,7 @@ class Layout extends React.Component {
                         <Route path="/characters" component={Characters} />
                         <Route path="/planets/:id" component={Planet} />
                         <Route path="/planets" component={Planets} />
+                        
                     </Switch>
                 </div>
 
