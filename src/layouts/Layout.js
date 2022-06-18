@@ -13,7 +13,7 @@ class Layout extends React.Component {
     render() {
         return <div>
             <div className="container-fluid">
-                <header className="App-header p-3">
+                <header className="App-header p-2">
                     <div className="d-flex justify-content-center">
                         <img src={logo} className="App-logo" alt="logo" />
                     </div>
@@ -25,7 +25,7 @@ class Layout extends React.Component {
                     </nav>
 
                 </header>
-                <div className="content pb-5">
+                <div className="content pb-2">
                     <Routes>
                         <Route exact path="/">
                         </Route>

@@ -3,7 +3,8 @@ import Carousel from "react-bootstrap/Carousel";
 import slideOne from "../../assets/image1.jpg";
 import slideTwo from "../../assets/Image2.jpg";
 import slideThree from "../../assets/Image3.jpg";
-import nav from "bootstrap";
+import slideFour from "../../assets/Image4.jpg";
+
 
 const ImageSlider = () => {
   const [index, setIndex] = useState(0);
@@ -40,9 +41,10 @@ const ImageSlider = () => {
             </p>
           </Carousel.Caption>
         </Carousel.Item>
-
+        
         <Carousel.Item>
-          <img className="d-block w-100" src={slideTwo} alt="Second slide" />
+          <img className="d-block w-100" src={slideFour} alt="Four slide" />
+
           <Carousel.Caption>
             <h3>Fourth slide label</h3>
             <p>Your focus determines your reality</p>
