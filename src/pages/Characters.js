@@ -59,16 +59,7 @@ export const Characters = () => {
                                 <p>{character?.properties?.height}</p>
                                 
                                 
-                                {// <ul className="list-group">
-                                //     {
-                                //         character.films.map((film, i) => {
-                                //             return <li key={i} className="list-group-item d-flex justify-content-between align-items-center bg-dark">
-                                //                 <Film film={film} />
-                                //             </li>
-                                //         })
-                                //     }
-                                // </ul>
-                            }
+                                
                             </div>
                             ) 
                             // : (

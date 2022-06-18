@@ -25,7 +25,6 @@ const ImageSlider = () => {
 
         <Carousel.Item>
           <img className="d-block w-100" src={slideTwo} alt="Second slide" />
-
           <Carousel.Caption>
             <h3>Darth Vader</h3>
             <p>You can't stop change any more than you can stop the suns from setting.</p>
@@ -34,7 +33,6 @@ const ImageSlider = () => {
 
         <Carousel.Item>
           <img className="d-block w-100" src={slideThree} alt="Third slide" />
-
           <Carousel.Caption>
             <h3>Obi-Wan Kenobi</h3>
             <p>
@@ -42,9 +40,9 @@ const ImageSlider = () => {
             </p>
           </Carousel.Caption>
         </Carousel.Item>
+
         <Carousel.Item>
           <img className="d-block w-100" src={slideTwo} alt="Second slide" />
-
           <Carousel.Caption>
             <h3>Fourth slide label</h3>
             <p>Your focus determines your reality</p>

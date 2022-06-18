@@ -1,8 +1,7 @@
 import React from 'react';
 import logo from '../logo.svg';
 import {
-    BrowserRouter as Router,
-    Switch,
+    Routes,
     Route,
     NavLink
 } from "react-router-dom";
@@ -12,7 +11,7 @@ import Planet from '../pages/planets/Planet';
 
 class Layout extends React.Component {
     render() {
-        return <Router>
+        return <div>
             <div className="container-fluid">
                 <header className="App-header p-3">
                     <div className="d-flex justify-content-center">
@@ -27,18 +26,18 @@ class Layout extends React.Component {
 
                 </header>
                 <div className="content pb-5">
-                    <Switch>
+                    <Routes>
                         <Route exact path="/">
                         </Route>
                         <Route path="/characters" component={Characters} />
                         <Route path="/planets/:id" component={Planet} />
                         <Route path="/planets" component={Planets} />
                         
-                    </Switch>
+                    </Routes>
                 </div>
 
             </div>
-        </Router>
+        </div>
 
     }
 }
