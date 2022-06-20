@@ -2,10 +2,9 @@ import React from "react";
 import ImageSlider from "../Carousel/ImageSlider";
 import { Container } from "react-bootstrap";
 import footer from "bootstrap";
-import {AiFillGithub} from "react-icons/ai"
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai"
 import {FaTwitter} from "react-icons/fa"
 import {MdOutlineMarkunread} from "react-icons/md"
-import {AiFillLinkedin} from "react-icons/ai"
 const Display = () => {
   return (
     <div>

@@ -12,7 +12,7 @@ export const Characters = () => {
                 setCharacters(data.results)
                 console.log(characters);
             })
-    }, [])
+    }, [characters])
 
     const getCharacter = (charId) => {
 

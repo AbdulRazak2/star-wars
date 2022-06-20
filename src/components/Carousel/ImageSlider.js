@@ -46,7 +46,7 @@ const ImageSlider = () => {
           <img className="d-block w-100" src={slideFour} alt="Four slide" />
 
           <Carousel.Caption>
-            <h3>Fourth slide label</h3>
+            <h3>Biggs Darklighter</h3>
             <p>Your focus determines your reality</p>
           </Carousel.Caption>
         </Carousel.Item>
