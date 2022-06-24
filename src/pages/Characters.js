@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Pagination } from 'react-bootstrap';
 
 export const Characters = () => {
     const [characters, setCharacters] = useState([])
@@ -24,6 +25,15 @@ export const Characters = () => {
                 })
     }
 
+    let active = 1;
+let items = [];
+for (let number = 0; number <= 9; number++) {
+  items.push(
+    <Pagination.Item key={number} active={number === active}>
+      {number}
+    </Pagination.Item>,
+  );
+}
    
 
         return (
@@ -68,6 +78,7 @@ export const Characters = () => {
                         }
                     </div>
                 </div>
+                <Pagination size="sm">{items}</Pagination>
             </div>
         )
     }

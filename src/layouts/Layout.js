@@ -6,8 +6,7 @@ import {
     NavLink
 } from "react-router-dom";
 import Characters from '../pages/Characters';
-import Planets from '../pages/planets/Planets';
-import Planet from '../pages/planets/Planet';
+
 
 class Layout extends React.Component {
     render() {
@@ -21,7 +20,7 @@ class Layout extends React.Component {
                     <nav className="d-flex justify-content-center">
                         <NavLink to="/" activeClassName="active-link" exact>Home</NavLink>
                         <NavLink to="/characters" activeClassName="active-link">Characters</NavLink>
-                        <NavLink to="/planets" activeClassName="active-link">Planets</NavLink>
+                        
                     </nav>
 
                 </header>
@@ -30,9 +29,7 @@ class Layout extends React.Component {
                         <Route exact path="/">
                         </Route>
                         <Route path="/characters" component={Characters} />
-                        <Route path="/planets/:id" component={Planet} />
-                        <Route path="/planets" component={Planets} />
-                        
+                      
                     </Routes>
                 </div>
 
